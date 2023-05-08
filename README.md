@@ -1,0 +1,1 @@
+# Hackintosh-EFI-Gigabyte-H510M-S2-Opencorev088

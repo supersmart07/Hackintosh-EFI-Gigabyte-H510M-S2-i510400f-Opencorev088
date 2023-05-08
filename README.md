@@ -1,15 +1,23 @@
 This is the EFI I used to install Mac OS Ventura 13.3.1 on my Gigabyte H510M S2 Motherboard paired with an i5-10400f no iGPU. iGPU doesn't work with 500 series motherboard and also affects DRM(can't watch Netflix and Disney+ on Safari)so I chose to use a supported AMD dGPU. This EFI should work with Monterey without modifications and Big Sur too if you swap out the Bluetooth kexts. The minimum OS for RX 6600 is 12.1 Monterey do keep that in mind.
 
 Specs:
+
 Motherboard: Gigabyte H510M S2
+
 CPU: Intel Core i5-10400F
+
 RAM: 2*Kingston Hyper X Fury 3200MHz (running at 2666Mhz)
+
 GPU: MSI RX 6600 2X Mech
+
 SSD: Kingston HyperX 120GB (Old SSD from my MacBook this shouldn't matter)
+
 Wireless Card: BCM94352HMB (mini-PCIe with PCIe convert card leftover from another laptop Hackintosh attempt not recommended)
+
 SMBIOS: MacPro7,1 (you can use iMacPro1,1 too)
 
 What Works:
+
 All USB ports
 
 Full DRM support
@@ -23,9 +31,11 @@ DP/HDMI Audio
 Apple and Netflix video
 
 Untested:
+
 DP/HDMI Audio (My monitor doesn't support audio out)
 
 Issues:
+
 Sleep(it'll eventually crash after a while but short sleeps works)
 
 Partial Continuity Features(Due to the incompatibility of my wireless card, buy BCM94360 series card or downgrade to Big Sur to fix)

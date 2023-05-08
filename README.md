@@ -2,47 +2,47 @@ This is the EFI I used to install Mac OS Ventura 13.3.1 on my Gigabyte H510M S2 
 
 <u>Specs:</u>
 
-Motherboard: Gigabyte H510M S2
+<u>Motherboard</u>: Gigabyte H510M S2
 
-CPU: Intel Core i5-10400F
+<u>CPU</u>: Intel Core i5-10400F
 
-RAM: 2 x Kingston Hyper X Fury 3200MHz (running at 2666Mhz)
+<u>RAM</u>: 2 x Kingston Hyper X Fury 3200MHz (running at 2666Mhz)
 
-GPU: MSI RX 6600 2X Mech
+<u>GPU</u>: MSI RX 6600 2X Mech
 
-SSD: Kingston HyperX 120GB (Old SSD from my MacBook this shouldn't matter)
+<u>SSD</u>: Kingston HyperX 120GB (Old SSD from my MacBook this shouldn't matter)
 
-Wireless Card: BCM94352HMB (mini-PCIe with PCIe convert card leftover from another laptop Hackintosh attempt not recommended)
+<u>Wireless Card</u>: BCM94352HMB (mini-PCIe with PCIe convert card leftover from another laptop Hackintosh attempt not recommended)
 
-SMBIOS: MacPro7,1 (you can use iMacPro1,1 too)
+<u>SMBIOS</u>: MacPro7,1 (you can use iMacPro1,1 too)
 
 **What Works:**
 
-*All USB ports
+- All USB ports
 
-*Full DRM support
+- Full DRM support
 
-*USB audio devices
+- USB audio devices
 
-*Ethernet
+- Ethernet
 
-*WiFi/Bluetooth
+- WiFi/Bluetooth
 
-*DP/HDMI Audio
+- DP/HDMI Audio
 
-*Apple and Netflix video
+- Apple and Netflix video
 
 **Untested:**
 
-*DP/HDMI Audio (My monitor doesn't support audio out)
+- DP/HDMI Audio (My monitor doesn't support audio out)
 
 **Issues:**
 
-*Sleep(it'll eventually crash after a while but short sleeps works)
+- Sleep(it'll eventually crash after a while but short sleeps works)
 
-*Partial Continuity Features(Due to the incompatibility of my wireless card, buy BCM94360 series card or downgrade to Big Sur to fix)
+- Partial Continuity Features(Due to the incompatibility of my wireless card, buy BCM94360 series card or downgrade to Big Sur to fix)
 
-*Bluetooth won't turn on after turning off(I believe it is also caused by the wireless card but a reboot reenables Bluetooth)
+- Bluetooth won't turn on after turning off(I believe it is also caused by the wireless card but a reboot reenables Bluetooth)
 
 <u>BIOS Settings:</u>
 

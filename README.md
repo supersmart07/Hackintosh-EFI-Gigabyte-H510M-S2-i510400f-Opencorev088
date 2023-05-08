@@ -45,18 +45,31 @@ Bluetooth won't turn on after turning off(I believe it is also caused by the wir
 BIOS Settings:
 
 Load Optimized Defaults (Save & Exit)
+
 Favorites -> Extreme Memory Profile (XMP) = Enabled or Profile1 (if RAM is above 2400MHz)
+
 Favorites -> CSM Support = Disabled
+
 Favorites -> Secure Boot Mode = Disabled or Custom
+
 Favorites -> SATA Controllers = Enabled
+
 Settings -> IO Ports -> Super IO Configuration -> Serial Port = Disabled
+
 Settings -> IO Ports -> USB Configuration -> All 3 settings = Enabled
+
 Settings -> IO Ports -> Network Stack = Disabled
+
 Settings -> IO Ports -> SATA Configuration -> SATA mode = AHCI
+
 Boot -> CFG Lock = Disabled
+
 Boot -> Security Option = System
+
 Boot -> Fast Boot = Disabled link
+
 Boot -> Windows 10 Features = Other OS
+
 There is no need to disable VT-d
 
 You can enable 4G decoding if you want 
